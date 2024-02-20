@@ -1,0 +1,8 @@
+package application.database.dao;
+
+import application.database.dbcontext.MySqlDataBase;
+import application.database.model.OpenSeaModel;
+
+public class BinanceDB  extends MySqlDataBase implements ICollectionDB<OpenSeaModel> {
+
+}

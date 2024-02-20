@@ -1,0 +1,23 @@
+package application.database.dao;
+
+import java.util.List;
+
+import application.database.dbcontext.MySqlDataBase;
+import application.database.model.BinanceModel;
+import application.database.model.OpenSeaModel;
+
+public class BinanceDB  extends MySqlDataBase implements ICollectionDB<BinanceModel> {
+
+	@Override
+	public List<OpenSeaModel> getAllColectionInDayAgo(int dayAgo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OpenSeaModel> getCollectionByNameInDayAgo(String name, int day) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
